@@ -1,0 +1,5 @@
+MAESTROv2 dataset:
+https://www.kaggle.com/datasets/jackvial/themaestrodatasetv2
+
+VGMIDI dataset:
+https://www.kaggle.com/datasets/jakobeilander/emodata
