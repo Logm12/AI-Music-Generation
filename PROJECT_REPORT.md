@@ -35,6 +35,12 @@ The pipeline consists of four main modules:
 2.  **Emotion Extraction:** Using Deep Learning (PhoBERT, Bi-LSTM) to classify text into: *Happiness, Sadness, Anger, Fear, Disgust, Surprise*.
 3.  **Vector Mapping:** Converting discrete emotion labels into continuous **Valence-Arousal** vectors (based on Russell's Circumplex Model) to serve as conditions for the music generator.
 4.  **Music Generation:** A neural network generates MIDI sequences based on the input vector.
+The following diagrams illustrates this architechture
+
+<p align="center">
+  <img src="./assets/AI Music Gen.png" alt="Architechture Diagram" width="100%">
+</p>
+
 
 ### 3.2 Data Collection & Preparation
 
@@ -53,6 +59,7 @@ We selected **PhoBERT** (VinAI) due to its state-of-the-art performance on Vietn
 
 #### Music Generation
 The system employs a Transfer Learning strategy. A model (Transformer/LSTM-based) was pre-trained on classical piano performances to learn structure, then fine-tuned on the emotion-labeled VGMIDI dataset using conditional inputs (Note Sequence + Emotion Vector).
+
 
 ## 4. Experimental Results
 
