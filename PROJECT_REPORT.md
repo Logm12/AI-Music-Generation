@@ -1,8 +1,5 @@
 # Project Report: A Deep Learning Approach to Emotion-Driven Music Generation from Vietnamese Text
 
-**Course:** Artificial Intelligence (INS3080)  
-**Instructor:** PhD. Ha Manh Hung  
-**Group:** 10  
 **Date:** June 23rd, 2025
 
 ---

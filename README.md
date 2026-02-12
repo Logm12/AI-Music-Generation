@@ -1,7 +1,5 @@
 # Emotion-Driven Music Generation from Vietnamese Text
 
-**Final Project - Artificial Intelligence (INS3080)**  
-**Group 10 - Vietnam National University, Hanoi - International School**
 
 ## Overview
 
